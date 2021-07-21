@@ -1,0 +1,221 @@
+/*All*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    color: #666;
+}
+
+iframe {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+/*Navegação*/
+
+.nav-topo {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.link {
+    color: #666;
+    text-decoration: none;
+}
+
+.link span {
+    color: #606bff;
+}
+
+.nome-pousada {
+    padding-right: 250px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 200px;
+}
+
+/*Conteudo com imagem e title da pousada*/
+
+.container {
+    overflow: hidden;
+}
+
+.container-title {
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    position: absolute;
+    top: 200px;
+    right: 400px;
+}
+
+.container-title {
+    background-color: rgba(0, 179, 119, 0.7);
+    border: 1px solid #fff;
+}
+
+.container-title h1 {
+    font-size: 3em;
+    padding-bottom: 40px;
+}
+
+.container-title p {
+    font-size: 1.5em;
+}
+
+/*Conteudo Reutilizado várias vezes*/
+
+.container-body {
+    text-align: center;
+    align-items: center;
+    font-size: 1.4em;
+    margin: 50px;
+}
+
+.container-body h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 15px;
+}
+
+.container-body p {
+    padding: 10px;
+    font-weight: 300;
+}
+
+/*Preview dos Quartos*/
+
+.container-q {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.preview-quartos {
+    width: 350px;
+    text-align: center;
+    border-bottom: 2px solid rgba(0, 179, 119, 0.7);
+    text-transform: uppercase;
+}
+
+.preview-quartos img {
+    width: 350px;
+}
+
+.preview-quartos p {
+    padding: 10px;
+}
+
+/*Conteudo sobre a pousada*/
+
+.container-all {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+
+.container-sobre {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+.container-p {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    width: 400px;
+}
+
+.container-p p {
+    padding-top: 15px;
+}
+
+.container-sobre img {
+    width: 140px;
+    height: 150px;
+}
+
+/*Rodape*/
+
+footer {
+    background-color: rgba(0, 179, 119, 0.7);
+    margin-top: 50px;
+}
+
+.container-rodape {
+    color: #fff;
+    padding: 50px;
+    font-weight: bold;
+}
+
+.container-rodape h4 {
+    width: 200px;
+    font-size: 1.5em;
+}
+
+.container-rodape a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container-contato {
+    display: flex;
+    justify-content: space-around;
+}
+
+.container-cef {
+    display: flex;
+    align-items: center;
+    width: 250px;
+}
+
+.container-cef img {
+    width: 40px;
+    height: 40px;
+    padding-right: 10px;
+}
+
+.copy {
+    text-align: center;
+    padding-top: 50px;
+}
+
+/*Quarto Solteiro*/
+
+.img-quartos img {
+    width: 400px;
+    border-radius: 5px;
+}
+
+/*Listas dos quartos*/
+
+.container-lista {
+    margin-top: 30px;
+}
+
+.container-lista h3 {
+    padding: 30px;
+    text-align: center;
+}
+
+.container-lista ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
